@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Resep Kue</title>
+        <link rel="stylesheet" href="assets/styles/style_home.css">
+    </head>
+    <body>
+        <header>
+            <div class="jumbotron">
+                <h1>Aneka Resep Kue</h1>
+                <p>Mudah membuatnya dan dijamin enak!</p>
+            </div>
+            <nav>
+                <ul>
+                    <div class="dropdown">
+                        <button onclick="myFunction()" class="dropbtn">Menu</button>
+                        <div id="myDropdown" class="dropdown-content">
+                            <a href="home.html">Home</a>
+                            <a href="profile.html">Profile</a>
+                            <a href="https://github.com/CupCLoud22/WebProject_ResepKue" target='_blank'>Source Code</a>
+                        </div>
+                    </div>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <div id="content" class="card2">
+                <div class="card" onclick="location.href='pancake.html';" style="cursor: pointer;">
+                    <img src="assets/image/pancake.jpg" class="featured-image">
+                    <h2>Japanise Pancake</h2>
+                </div>
+                <div class="card" onclick="location.href='crepes.html';" style="cursor: pointer;">
+                    <img src="assets/image/crepes.jpg" class="featured-image">
+                    <h2>Crepes</h2>
+                </div>
+                <div class="card" onclick="location.href='donat.html';" style="cursor: pointer;">
+                    <img src="assets/image/donat.jpg" class="featured-image">
+                    <h2>Donat</h2>
+                </div>
+                <div class="card" onclick="location.href='bolu_kukus.html';" style="cursor: pointer;">
+                    <img src="assets/image/bolu_kukus.jpg" class="featured-image">
+                    <h2>Bolu Kukus</h2>
+                </div>
+                <div class="card" onclick="location.href='bolu_pandan.html';" style="cursor: pointer;">
+                    <img src="assets/image/bolu_pandan.jpg" class="featured-image">
+                    <h2>Bolu Pandan</h2>
+                </div>
+                <div class="card" onclick="location.href='martabak_mini.html';" style="cursor: pointer;">
+                    <img src="assets/image/martabak_mini.jpg" class="featured-image">
+                    <h2>Martabak Mini</h2>
+                </div>
+            </div>
+            <aside>
+                <article class="profile2 card3" onclick="location.href='profile.html';" style="cursor: pointer;">
+                    <header>
+                        <figure>
+                            <img src="assets/image/Screenshot_20200916-120700_WhatsApp.jpg">
+                        </figure>
+                        <h1>Tentang Saya:</h1>
+                        <p>R. Ramdhani Purbowo</p>
+                    </header>
+                </article>
+            </aside>
+        </main>
+        <footer>
+            <p>Belajar Dasar Pemrograman Web &copy; 2022, Dicoding Academy</p>
+        </footer>
+        <script src="assets/styles/drop_down.js"></script>
+    </body>
+</html>
